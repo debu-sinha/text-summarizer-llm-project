@@ -1,0 +1,6 @@
+{
+  "host": "https://adb-8713547057565165.5.azuredatabricks.net/",
+  "authType": "profile",
+  "profile": "DEFAULT",
+  "workspacePath": "/Users/debu.sinha@databricks.com/.ide/text-summarizer-llm-project-c80308cd"
+}
