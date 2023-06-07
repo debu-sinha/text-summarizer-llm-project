@@ -26,7 +26,8 @@ list_of_files = [
     "app.py",
     "main.py",
     "setup.py",
-    "notebooks/eda.py"
+    "notebooks/eda.py",
+    "requirements.txt"
 ]
 
 for file_path in list_of_files:
