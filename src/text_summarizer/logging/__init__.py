@@ -22,5 +22,5 @@ logging.basicConfig(
     ]
 )
 
-# Get the logger object with the name "textSummarizerLogger"
-logger = logging.getLogger("textSummarizerLogger")
+# Get the logger object with the name "text_summarizer_logger"
+logger = logging.getLogger("text_summarizer_logger")
