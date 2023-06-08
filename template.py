@@ -26,7 +26,8 @@ list_of_files = [
     "app.py",
     "main.py",
     "setup.py",
-    "notebooks/eda.py",
+    f"notebooks/{project_name}.py",
+    "requirements-dev.txt",
     "requirements.txt"
 ]
 
@@ -39,7 +40,11 @@ for file_path in list_of_files:
     #if file does not exist, create an empty file
     if not file_path.exists():
         with open(file_path, "w") as f:
-            f.write("")
+            #if the file is requirements-dev.txt add -r requirements.txt to it else leave empty
+            if file_name == "requirements-dev.txt":
+                f.write("-r requirements.txt")
+            else:
+                f.write("")
         logging.info(f"Created {file_path}")
     else:
         logging.warning(f"{file_path} already exists")  

@@ -1,0 +1,7 @@
+pandas
+nltk
+tqdm
+PyYAML
+matplotlib
+torch
+-r requirements.txt
