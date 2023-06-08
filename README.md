@@ -1,1 +1,1 @@
-# text-summarizer-llm-project
+# text-summarizer-project
