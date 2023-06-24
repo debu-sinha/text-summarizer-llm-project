@@ -3,7 +3,7 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/debu-sinha/text-summarizer-project/raw/master/data/summarizer-data.zip
+  source_URL: https://github.com/debu-sinha/text-summarizer-project/raw/main/data/summarizer-data.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 
